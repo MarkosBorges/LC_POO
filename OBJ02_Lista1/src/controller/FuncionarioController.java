@@ -118,7 +118,7 @@ public class FuncionarioController {
         }
 
         System.out.println("|| ----------------------- NOVA FOLHA SALARIAL ------------------------ ||");
-        System.out.println("                Nova folha salarial com Bônus: " + NumberFormat.getCurrencyInstance().format(novaFolhaComBonus));
+        System.out.println("                NOVA FOLHA SALARIAL COM BÔNUS: " + NumberFormat.getCurrencyInstance().format(novaFolhaComBonus));
         System.out.println("|| ---------------------------------------------------------------------- ||");
 
 
