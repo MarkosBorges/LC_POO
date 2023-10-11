@@ -5,7 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/IdeaProjects.iml" filepath="$PROJECT_DIR$/IdeaProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/OBJ01_AVAL_01/OBJ01_AVAL_01.iml" filepath="$PROJECT_DIR$/OBJ01_AVAL_01/OBJ01_AVAL_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/OBJ01_EXERCICIO2_VEICULO/OBJ01_EXERCICIO2_VEICULO.iml" filepath="$PROJECT_DIR$/OBJ01_EXERCICIO2_VEICULO/OBJ01_EXERCICIO2_VEICULO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OBJ02_HerancaMultipla/OBJ02_HerancaMultipla.iml" filepath="$PROJECT_DIR$/OBJ02_HerancaMultipla/OBJ02_HerancaMultipla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OBJ02_HerancaMultipla_L1/OBJ02_HerancaMultipla_L1.iml" filepath="$PROJECT_DIR$/OBJ02_HerancaMultipla_L1/OBJ02_HerancaMultipla_L1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OBJ02_HerancaMultipla_L2/OBJ02_HerancaMultipla_L2.iml" filepath="$PROJECT_DIR$/OBJ02_HerancaMultipla_L2/OBJ02_HerancaMultipla_L2.iml" />
       <module fileurl="file://$PROJECT_DIR$/OBJ02_HerancaSimples_Lista1/OBJ02_HerancaSimples_Lista1.iml" filepath="$PROJECT_DIR$/OBJ02_HerancaSimples_Lista1/OBJ02_HerancaSimples_Lista1.iml" />
       <module fileurl="file://$PROJECT_DIR$/OBJ02_Exercicios_Heranca1/TSI_Heranca_01.iml" filepath="$PROJECT_DIR$/OBJ02_Exercicios_Heranca1/TSI_Heranca_01.iml" />
     </modules>

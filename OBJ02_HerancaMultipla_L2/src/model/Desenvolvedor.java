@@ -1,5 +1,7 @@
 package model;
 
+import controller.FuncionarioController;
+
 import java.text.NumberFormat;
 
 public class Desenvolvedor extends Funcionario {
