@@ -8,10 +8,14 @@ public class Carro extends Veiculo implements Automovel {
     private String placa;
 
 
-    public Carro(int numeroDeEixos, String propulsao, String marca, String modelo, int anoFabricacao, int capacidadePortaMalas) {
+    public Carro(int numeroDeEixos, String propulsao, String marca, String modelo, int anoFabricacao, int capacidadePortaMalas, String chassi, String placa, String renavam) {
         super(numeroDeEixos, propulsao, marca, modelo, anoFabricacao);
         this.capacidadePortaMalas = capacidadePortaMalas;
+        this.chassi = chassi;
+        this.placa = placa;
+        this.renavam = renavam;
     }
+
 
     // --------------------------------------
     // Get e set portamalas -----------------
@@ -66,4 +70,11 @@ public class Carro extends Veiculo implements Automovel {
 //                ", Placa: '" + placa + '\'' +
 //                '}';
 //    }
+    @Override
+    public String toString() {
+        return super.toString() + String.format(" | Chassi: %s, Placa: %s, Renavam: %s",
+                chassi, placa, renavam);
+    }
+
 }
+

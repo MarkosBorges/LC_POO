@@ -8,11 +8,14 @@ public class Caminhao extends Veiculo implements Automovel {
     private String placa;
 
 
-    public Caminhao(int numeroDeEixos, String propulsao, String marca, String modelo, int anoFabricacao,
-                    int capacidadeDeCarga) {
+    public Caminhao(int numeroDeEixos, String propulsao, String marca, String modelo, int anoFabricacao, int capacidadeDeCarga, String chassi, String placa, String renavam) {
         super(numeroDeEixos, propulsao, marca, modelo, anoFabricacao);
         this.capacidadeDeCarga = capacidadeDeCarga;
+        this.chassi = chassi;
+        this.placa = placa;
+        this.renavam = renavam;
     }
+
 
     // Gets e sets > Caminhao
     public int getCapacidadeDeCarga() {
@@ -64,6 +67,12 @@ public class Caminhao extends Veiculo implements Automovel {
 //                ", Placa: '" + placa + '\'' +
 //                '}';
 //    }
+    @Override
+    public String toString() {
+        return super.toString() + String.format(" | Chassi: %s, Placa: %s, Renavam: %s",
+                chassi, placa, renavam);
+    }
+
 
 }
 

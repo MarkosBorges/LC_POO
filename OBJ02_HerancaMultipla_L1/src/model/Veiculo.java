@@ -62,12 +62,11 @@ public abstract class Veiculo {
 
     @Override
     public String toString() {
-        return "\nVeiculo: {" +
-                "numeroDeEixos=" + numeroDeEixos +
-                ", propulsao='" + propulsao + '\'' +
-                ", marca='" + marca + '\'' +
-                ", modelo='" + modelo + '\'' +
-                ", anoFabricacao=" + anoFabricacao +
-                '}';
+        return "\n - VEÍCULO: " +
+                " Número de Eixos: " + numeroDeEixos +
+                ", Propulsão: '" + propulsao + '\'' +
+                ", Marca: '" + marca + '\'' +
+                ", Modelo: '" + modelo + '\'' +
+                ", Ano de fabricação: " + anoFabricacao;
     }
 }
