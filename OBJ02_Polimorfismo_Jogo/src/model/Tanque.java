@@ -1,25 +1,26 @@
 package model;
 
-public class Navio extends Personagem{
-    public Navio() {
+public class Tanque extends Personagem{
+
+    public Tanque() {
         super();
     }
 
-    public Navio(double x, double y) {
+    public Tanque(double x, double y) {
         super(x, y);
     }
 
     @Override
     public void desenhar() {
-        System.out.println("\nDesenhou Navio");
+        System.out.println("\nDesenhou Tanque");
     }
 
-    // Sobrescreve o comportamento da superclasse Personagem
     @Override
     public String toString() {
-        return "\n\nNavio{" +
+        return "\n\nTanque{" +
                 "x=" + x +
                 ", y=" + y +
                 '}';
     }
+
 }

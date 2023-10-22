@@ -9,6 +9,7 @@ import java.util.List;
 
 public class GameController {
     public static void main(String[] args) {
+        //
         Aviao aviao1 = new Aviao();
         Aviao aviao2 = new Aviao(1,1,1);
         Navio navio1 = new Navio();
@@ -34,7 +35,7 @@ public class GameController {
             } else if (p instanceof Navio) {
                 p.mover(4,4);
             } else if (p instanceof Tanque) {
-                p.mover(6,6);
+                p.mover(8,8);
             }
         });
         System.out.println("\nNova posição dos Personagens: ");

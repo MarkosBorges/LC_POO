@@ -20,7 +20,7 @@ public class Aviao extends Personagem{
 
     public void mover(double x, double y, double z){
         System.out.println("Moveu o Avião 3D");
-        this.x = z;
+        this.x = x;
         this.y = y;
         this.z = z;
     }

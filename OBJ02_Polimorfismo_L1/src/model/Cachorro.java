@@ -1,26 +1,23 @@
 package model;
 
-public class Tanque extends Personagem{
-
-    public Tanque() {
-        super();
+public class Cachorro extends Animal{
+    public Cachorro() {
     }
 
-    public Tanque(double x, double y) {
+    public Cachorro(double x, double y) {
         super(x, y);
     }
 
     @Override
     public void desenhar() {
-        System.out.println("\nDesenhou Tanque");
+        System.out.println("\nDESENHA CÃO");
     }
 
     @Override
     public String toString() {
-        return "Tanque{" +
+        return "\nCachorro: -> {" +
                 "x=" + x +
                 ", y=" + y +
                 '}';
     }
-
 }
