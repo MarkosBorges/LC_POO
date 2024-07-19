@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LISTA01/EX_01/EX_01.iml" filepath="$PROJECT_DIR$/LISTA01/EX_01/EX_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LISTA01/Ex_02/Ex_02.iml" filepath="$PROJECT_DIR$/LISTA01/Ex_02/Ex_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LISTA01/Ex_03/Ex_03.iml" filepath="$PROJECT_DIR$/LISTA01/Ex_03/Ex_03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LISTA01/Ex_04/Ex_04.iml" filepath="$PROJECT_DIR$/LISTA01/Ex_04/Ex_04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LISTA01/Ex_05/Ex_05.iml" filepath="$PROJECT_DIR$/LISTA01/Ex_05/Ex_05.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LISTA01/Ex_06/Ex_06.iml" filepath="$PROJECT_DIR$/LISTA01/Ex_06/Ex_06.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LISTA04_EXERCICIOS/LISTA04_EXERCICIOS.iml" filepath="$PROJECT_DIR$/LISTA04_EXERCICIOS/LISTA04_EXERCICIOS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LISTA04_PRODUTO/LISTA04_PRODUTO.iml" filepath="$PROJECT_DIR$/LISTA04_PRODUTO/LISTA04_PRODUTO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LISTA04_PRODUTO2/LISTA04_PRODUTO2.iml" filepath="$PROJECT_DIR$/LISTA04_PRODUTO2/LISTA04_PRODUTO2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA01/EX_01/EX_01.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA01/EX_01/EX_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA01/Ex_02/Ex_02.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA01/Ex_02/Ex_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA01/Ex_03/Ex_03.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA01/Ex_03/Ex_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA01/Ex_04/Ex_04.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA01/Ex_04/Ex_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA01/Ex_05/Ex_05.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA01/Ex_05/Ex_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA01/Ex_06/Ex_06.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA01/Ex_06/Ex_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA04_EXERCICIOS/LISTA04_EXERCICIOS.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA04_EXERCICIOS/LISTA04_EXERCICIOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA04_PRODUTO/LISTA04_PRODUTO.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA04_PRODUTO/LISTA04_PRODUTO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA04_PRODUTO2/LISTA04_PRODUTO2.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA04_PRODUTO2/LISTA04_PRODUTO2.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO_TSI/OBJ01_AVAL_01/OBJ01_AVAL_01.iml" filepath="$PROJECT_DIR$/POO_TSI/OBJ01_AVAL_01/OBJ01_AVAL_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO_TSI/OBJ01_EXERCICIO2_VEICULO/OBJ01_EXERCICIO2_VEICULO.iml" filepath="$PROJECT_DIR$/POO_TSI/OBJ01_EXERCICIO2_VEICULO/OBJ01_EXERCICIO2_VEICULO.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO_TSI/OBJ02_HerancaMultipla_L1/OBJ02_HerancaMultipla_L1.iml" filepath="$PROJECT_DIR$/POO_TSI/OBJ02_HerancaMultipla_L1/OBJ02_HerancaMultipla_L1.iml" />
