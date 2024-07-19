@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.text.MessageFormat;
 
 //Ref: https://www.bosontreinamentos.com.br/java/como-exibir-message-dialog-e-input-dialog-com-swing-em-java/
 
