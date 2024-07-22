@@ -22,8 +22,10 @@
       <module fileurl="file://$PROJECT_DIR$/POO_TSI/OBJ03_AVAL_03_Pedidos/OBJ03_AVAL_03_Pedidos.iml" filepath="$PROJECT_DIR$/POO_TSI/OBJ03_AVAL_03_Pedidos/OBJ03_AVAL_03_Pedidos.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO_LC.iml" filepath="$PROJECT_DIR$/POO_LC.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO_TSI/OBJ02_Exercicios_Heranca1/TSI_Heranca_01.iml" filepath="$PROJECT_DIR$/POO_TSI/OBJ02_Exercicios_Heranca1/TSI_Heranca_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testes04_List/Testes04_List.iml" filepath="$PROJECT_DIR$/Testes04_List/Testes04_List.iml" />
       <module fileurl="file://$PROJECT_DIR$/Testes_01/Testes_01.iml" filepath="$PROJECT_DIR$/Testes_01/Testes_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Testes_02/Testes_02.iml" filepath="$PROJECT_DIR$/Testes_02/Testes_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testes_03/Testes_03.iml" filepath="$PROJECT_DIR$/Testes_03/Testes_03.iml" />
     </modules>
   </component>
 </project>
