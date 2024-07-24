@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         Date data = new Date();
-        int diaDate, mesDate, anoDate, idade, idade2;
+        int diaDate, mesDate, anoDate, idade, idadeNova;
 
         LocalDate hoje=LocalDate.now();
         diaDate = hoje.getDayOfMonth();
@@ -16,8 +16,8 @@ public class Main {
 
         Pessoa pessoa1 = new Pessoa(10,10,1950,"Marcos");
 
-        //idade = pessoa1.calcularIdade(pessoa1.getDia(), pessoa1.getMes(), pessoa1.getAno());
-        idade2 = pessoa1.informarIdade();
+        idade = pessoa1.calcularIdade(pessoa1.getDia(), pessoa1.getMes(), pessoa1.getAno());
+
         System.out.println("========= INFORMA IDADE ========");
         System.out.println("Nome: "+pessoa1.informarNome());
         System.out.println("Dia: "+pessoa1.getDia());
@@ -25,17 +25,20 @@ public class Main {
         System.out.println("Ano: "+pessoa1.getAno());
 
         //System.out.println("Idade: "+ (anoDate - pessoa1.ano));
-        System.out.println("Idade: "+idade2);
+        System.out.println("Idade: "+idade);
 
         //Ajusta idade
-        pessoa1.setDia(22);
-        pessoa1.setMes(11);
-        pessoa1.setAno(1995);
+        pessoa1.ajustarIdade(22,11,1995);
+//        pessoa1.setDia(22);
+//        pessoa1.setMes(11);
+//        pessoa1.setAno(1995);
+        pessoa1.ajustarIdade(pessoa1.getDia(), pessoa1.getMes(), pessoa1.getAno());
+        idade = pessoa1.calcularIdade(pessoa1.getDia(),pessoa1.getMes(),pessoa1.getAno());
         System.out.println("\n\n======== AJUSTA IDADE ========");
         System.out.println("Nome: "+pessoa1.informarNome());
         System.out.println("Dia: "+pessoa1.getDia());
         System.out.println("Mês: "+pessoa1.getMes());
         System.out.println("Ano: "+pessoa1.getAno());
-        System.out.println("Idade: "+idade2);
+        System.out.println("Idade: "+idade);
     }
 }

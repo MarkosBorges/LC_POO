@@ -64,6 +64,8 @@ public class Pessoa {
     }
 
     // ---------------------------------------------
+    // UTILIZADO METODO BETWEEN PARA CALCULAR O NASC
+    //FONTE: https://acervolima.com/metodo-de-ponto-entre-em-java-com-exemplos/
     public int calcularIdade(int dia, int mes, int ano) {
 
         if ((nascimento != null) && (hoje != null)) {
