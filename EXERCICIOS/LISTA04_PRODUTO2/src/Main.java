@@ -3,8 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        Produto produto = new Produto("CANETA", 10, 0.5);
+        Produto p2 = new Produto("LAPIS", 20, 0.3);
+        Produto p3 = new Produto("BORRACHA", 50, 1.5);
+
         Scanner scanner = new Scanner(System.in);
-        Produto produto = new Produto();
 
         int opcao;
         do {
@@ -25,20 +28,21 @@ public class Main {
                 case 1:
                     System.out.print("Digite a quantidade a ser retirada: ");
                     int quantidadeRetirada = scanner.nextInt();
-                    produto.retirada(quantidadeRetirada);
+                    produto.retira(quantidadeRetirada);
                     break;
                 case 2:
                     System.out.print("Digite a quantidade a ser reposta: ");
                     int quantidadeReposicao = scanner.nextInt();
-                    produto.reposicao(quantidadeReposicao);
+                    produto.repoe(quantidadeReposicao);
                     break;
                 case 3:
                     System.out.print("Digite o novo preço unitário: ");
                     float novoPreco = scanner.nextFloat();
-                    produto.setPreco(novoPreco);
+                    //novoPreco = Double.parseDouble(novoPreco);
+                    produto.precoUnit = novoPreco;
                     break;
                 case 4:
-                    System.out.println("Valor do estoque: R$ " + produto.calcularValorEstoque());
+                    System.out.println("Valor do estoque: R$ " + produto.obtemValorEstoque());
                     break;
                 case 5:
                     System.out.println(produto);

@@ -1,11 +1,11 @@
-public class Produto{
+public class Produto {
 
-    private String descricao;
-    private int quant;
-    private double precoUnit;
+    // Declaração do(s) atributo(s)
+    public String descricao; // descrição do produto
+    public int quant; // quantidade do produto em estoque
+    public double precoUnit; // preço unitário do produto
 
-
-    public Produto(){};
+    public Produto(){}
 
     public Produto(String descricao, int quant, double precoUnit) {
         this.descricao = descricao;
@@ -13,58 +13,46 @@ public class Produto{
         this.precoUnit = precoUnit;
     }
 
-    //GET e SET
-    public double getPrecoUnit() {
-        return precoUnit;
-    }
 
-    public void setPrecoUnit(double precoUnit) {
-        this.precoUnit = precoUnit;
-    }
+    /* Método para atualizar o estoque com a quantidade passada como
+    parâmetro. Caso a quantidade passada como parâmetro for zero ou
+    negativa o estoque não deve ser atualizado */
 
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public int getQuant() {
-        return quant;
-    }
-
-    public void setQuant(int quant) {
-        int novoEstoque = this.quant + quant;
-        if (novoEstoque > 0){
-            this.quant = quant;
-            System.out.println("Estoque atualizada com sucesso!");
-            System.out.println("Novo estoque tem: " + this.quant +" itens");
-        }else{
-            System.out.println("Estoque NÃO ATUALIZOU!");
+    public void repoe(int quantRep) {
+        if (quantRep > 0){
+            quant = quant + quantRep;
         }
     }
 
-    //-------------------------------
-    public void repoe(int quantReposicao){
-        if(quantReposicao > 0){
-            this.quant += quantReposicao;
-        }else{
-            System.out.println("Digite um valor positivo!");
-        }
-        //System.out.println("Retorna repoe");
-        //return 0;
-    }
-    public boolean retira(int quantRet){
-        if (quantRet > 0 && quantRet <= this.quant) {
-            this.quant -= quantRet;
+
+    /* Método para atualizar o estoque com a quantidade passada como
+    parâmetro. Caso a quantidade passada como parâmetro for zero,
+    negativa ou superior ao estoque existente, a atualização não deve
+    ser executada */
+    public boolean retira(int quantRet) {
+        if ((quantRet > 0) && (quantRet <= quant)){
+            quant = quant - quantRet;
             return true;
         }
-        return false;
-        //System.out.println("Retorna retira"+quantRet);
+        else {
+            return false;
+        }
     }
 
-    public double obtemValorEstoque(){
-        return this.quant * this.precoUnit;
+
+    /* Método para retornar o valor total do estoque considerando a
+    quantidade existente e o preço unitário do produto. */
+    public double obtemValorEstoque() {
+        return (quant * precoUnit);
+    }
+
+    //-------------------
+    @Override
+    public String toString() {
+        return "\nProduto{" +
+                "Descricao: '" + descricao + '\'' +
+                ", Quantidade em Estoque: " + quant +
+                ", Valor: " + precoUnit +
+                '}';
     }
 }
