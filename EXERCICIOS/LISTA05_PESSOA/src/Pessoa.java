@@ -1,8 +1,5 @@
 import java.time.LocalDate;
-import java.util.Date;
-import java.time.LocalDate;
-import java.util.Date;
-import java.util.Locale;
+import java.time.Period;
 
 public class Pessoa {
     int idade;
@@ -10,16 +7,20 @@ public class Pessoa {
     int mes;
     int ano;
     String nome;
+    LocalDate nascimento;
+
+    LocalDate hoje = LocalDate.now();
+
 
     public Pessoa() {
     }
 
-    public Pessoa(int idade, int dia, int mes, int ano, String nome) {
-        this.idade = idade;
+    public Pessoa(int dia, int mes, int ano, String nome) {
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;
         this.nome = nome;
+        this.nascimento = LocalDate.of(ano, mes, dia);
     }
 
     public int getIdade() {
@@ -62,18 +63,30 @@ public class Pessoa {
         this.nome = nome;
     }
 
-// ---------------------------------------------
-    public void calcularIdade(int dia, int mes, int ano){
-        this.dia = dia;
-        this.mes = mes;
-        this.ano = ano;
+    // ---------------------------------------------
+    public int calcularIdade(int dia, int mes, int ano) {
 
-
-       // return ano - getAno();
+        if ((nascimento != null) && (hoje != null)) {
+            return this.idade = Period.between(nascimento, hoje).getYears();
+        } else {
+            return 0;
+        }
     }
-//    public int informarIdade(){
-//
-//
-//    }
+
+    public int informarIdade() {
+        return this.idade;
+    }
+
+    public String informarNome() {
+        return this.nome;
+    }
+
+    public void ajustarIdade(int dia, int mes, int ano){
+        this.dia=dia;
+        this.mes=mes;
+        this.ano=ano;
+        this.nascimento = LocalDate.of(ano,mes,dia);
+        this.idade = calcularIdade(dia, mes, ano);
+    }
 
 }
