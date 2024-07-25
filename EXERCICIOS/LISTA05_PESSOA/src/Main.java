@@ -6,13 +6,7 @@ import java.util.Locale;
 public class Main {
     public static void main(String[] args) {
 
-        Date data = new Date();
-        int diaDate, mesDate, anoDate, idade, idadeNova;
-
-        LocalDate hoje=LocalDate.now();
-        diaDate = hoje.getDayOfMonth();
-        mesDate = hoje.getMonthValue();
-        anoDate = hoje.getYear();
+        int idade;
 
         Pessoa pessoa1 = new Pessoa(10,10,1950,"Marcos");
 
