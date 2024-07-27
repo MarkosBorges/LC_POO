@@ -61,13 +61,10 @@ public class Produto {
         }
     }
 
-    public void alteraPrecoUnitario(double novoPreco){
-        if(novoPreco > 0.0){
-            precoUnit = precoUnit + novoPreco;
-            //System.out.println("Novo preço atualizado!");
-            //return novoPreco;
-        }else {
-            //System.out.println("Não foi possivel atualizar!");
+    public void alteraPrecoUnitario(double novoPreco) {
+        if (novoPreco > 0.0) {
+            this.precoUnit += novoPreco;
+            //System.out.println("Preço atualizado com sucesso!");
         }
     }
 

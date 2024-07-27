@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
         Produto produto = new Produto("CANETA", 10, 0.5);
         Produto p2 = new Produto("LAPIS", 20, 0.3);
@@ -37,9 +38,7 @@ public class Main {
                     break;
                 case 3:
                     System.out.print("Digite o novo preço unitário: ");
-                    //double novoPreco = scanner.nextDouble();
-                    double novoPreco = Double.parseDouble();
-                    //produto.setPrecoUnit(novoPreco);
+                    double novoPreco = scanner.nextDouble();
                     produto.alteraPrecoUnitario(novoPreco);
                     break;
                 case 4:
