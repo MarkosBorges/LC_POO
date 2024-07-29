@@ -22,13 +22,13 @@ public class Main {
         System.out.println("========= IDADE ALBERT ========");
         System.out.println("Nome: "+albert.informarNome());
         System.out.println("Data de Nascimento: "+albert.getDia()+"/"+albert.getMes()+"/"+albert.getAno());
-        System.out.println("Idade dele no dia de hoje (caso tivessem vivos): "+idadeAlbert+" anos");
+        System.out.println("Idade dele no dia de hoje (caso tivesse vivos): "+idadeAlbert+" anos");
         System.out.println("Data de Hoje: "+dataFormatada);
         System.out.println();
         System.out.println("========= IDADE NEWTON ========");
         System.out.println("Nome: "+isaac.informarNome());
         System.out.println("Data de Nascimento: "+isaac.getDia()+"/"+isaac.getMes()+"/"+isaac.getAno());
-        System.out.println("Idade dele no dia de hoje (caso tivessem vivos): "+idadeNewton+ " anos");
+        System.out.println("Idade dele no dia de hoje (caso tivesse vivos): "+idadeNewton+ " anos");
         System.out.println("Data de Hoje: "+dataFormatada);
 
     }
