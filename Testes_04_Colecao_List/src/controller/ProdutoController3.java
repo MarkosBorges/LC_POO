@@ -26,11 +26,36 @@ public class ProdutoController3 {
         System.out.println(produtos);
 
         //Ordena colecao de objetos (ordena pelo nome do produto)
-        // :: = operador de resolucao de escopo
+        // :: = operador de resolucao de escopo (algo como: vá dentro da classe Produto e pegue o comportamento getNome)
         produtos.sort(Comparator.comparing(Produto::getNome));
         System.out.println();
         System.out.println("----- LISTA ORDENADA -----");
         System.out.println(produtos);
+
+        produtos.sort(Comparator.comparing(Produto::getNome).reversed());
+        System.out.println();
+        System.out.println("----- LISTA ORDENADA - REVERSED -----");
+        System.out.println(produtos);
+
+        //===============================================================================
+        //PESQUISA
+        //PESQUISA DE FORCA BRUTA
+        System.out.println("\n----- PESQUISA -----");
+        produtos.forEach(p ->{
+            if(p.getNome().equals("Arroz")){
+                System.out.println("Objeto pesquisado ..."+p);
+            }
+        });
+
+        //PESQUISA
+        //METODO FILTER
+        System.out.println();
+        System.out.print("Pesquisando com o filter usando forEach:");
+        produtos.stream().filter(p -> p.getNome().equals("Acucar")).forEach(System.out::println);
+        System.out.println();
+        Produto produtoFind = produtos.stream().filter(p -> p.getNome().equals("Acucar")).findAny().orElse(null);
+        System.out.println("Localizando produto usando o filter: "+produtoFind);
+        //System.out.println(produtoFind);
 
 
     }

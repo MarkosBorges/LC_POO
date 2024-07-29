@@ -28,7 +28,6 @@ public class Produto {
         if(this.estoque >0){
             this.estoque = estoque;
         }
-
     }
 
     public String getNome() {
