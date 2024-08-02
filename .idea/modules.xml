@@ -29,7 +29,9 @@
       <module fileurl="file://$PROJECT_DIR$/Testes_02/Testes_02.iml" filepath="$PROJECT_DIR$/Testes_02/Testes_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Testes_03/Testes_03.iml" filepath="$PROJECT_DIR$/Testes_03/Testes_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Testes_04_Colecao_List/Testes_04_Colecao_List.iml" filepath="$PROJECT_DIR$/Testes_04_Colecao_List/Testes_04_Colecao_List.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Testes_05_ExcClasses/Testes_05_ExcClasses.iml" filepath="$PROJECT_DIR$/Testes_05_ExcClasses/Testes_05_ExcClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testes_05_Classes/Testes_05_Classes.iml" filepath="$PROJECT_DIR$/Testes_05_Classes/Testes_05_Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testes_06_ListCarros/Testes_06_ListCarros.iml" filepath="$PROJECT_DIR$/Testes_06_ListCarros/Testes_06_ListCarros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prova02_20222/prova02_20222.iml" filepath="$PROJECT_DIR$/prova02_20222/prova02_20222.iml" />
     </modules>
   </component>
 </project>
