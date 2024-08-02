@@ -8,6 +8,7 @@ public class Main {
         Produto p2 = new Produto("LAPIS", 20, 0.3);
         Produto p3 = new Produto("BORRACHA", 50, 1.5);
 
+
         Scanner scanner = new Scanner(System.in);
 
         int opcao;
