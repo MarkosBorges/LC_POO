@@ -2,10 +2,27 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("========= LAMPADA =========");
-        Lampada l1 = new Lampada();
+        Lampada lampada1 = new Lampada();
+        Lampada lampada2 = new Lampada(true, 40);
+        Lampada lampada3 = new Lampada(false, 100);
 
-        l1.imprimir();
-        l1.setLigada( true );
-        l1.imprimir();
+
+        System.out.println("Lâmpada 1: " + lampada1.toString());
+        System.out.println("Lâmpada 2: " + lampada2.toString());
+        System.out.println("Lâmpada 3: " + lampada3.toString());
+
+
+        lampada1.acende();
+        lampada2.apaga();
+
+
+        System.out.println("\nApós acender a lâmpada 1 e apagar a lâmpada 2:");
+        System.out.println("Lâmpada 1: " + lampada1.toString());
+        System.out.println("Lâmpada 2: " + lampada2.toString());
+
+
+        System.out.println("\nLâmpada 1 é econômica? " + lampada1.eEconomica());
+        System.out.println("Lâmpada 2 é econômica? " + lampada2.eEconomica());
+        System.out.println("Lâmpada 3 é econômica? " + lampada3.eEconomica());
     }
 }

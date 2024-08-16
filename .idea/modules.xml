@@ -15,8 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA05_PESSOA2/LISTA05_PESSOA2.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA05_PESSOA2/LISTA05_PESSOA2.iml" />
       <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA06_PRODUTO/LISTA06_PRODUTO.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA06_PRODUTO/LISTA06_PRODUTO.iml" />
       <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA07_CIRCULO/LISTA07_CIRCULO.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA07_CIRCULO/LISTA07_CIRCULO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LISTA08_RELOGIO/LISTA08_RELOGIO.iml" filepath="$PROJECT_DIR$/LISTA08_RELOGIO/LISTA08_RELOGIO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LISTA09_LAMPADA/LISTA09_LAMPADA.iml" filepath="$PROJECT_DIR$/LISTA09_LAMPADA/LISTA09_LAMPADA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA08_RELOGIO/LISTA08_RELOGIO.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA08_RELOGIO/LISTA08_RELOGIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXERCICIOS/LISTA09_LAMPADA/LISTA09_LAMPADA.iml" filepath="$PROJECT_DIR$/EXERCICIOS/LISTA09_LAMPADA/LISTA09_LAMPADA.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO_TSI/OBJ01_AVAL_01/OBJ01_AVAL_01.iml" filepath="$PROJECT_DIR$/POO_TSI/OBJ01_AVAL_01/OBJ01_AVAL_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO_TSI/OBJ01_EXERCICIO2_VEICULO/OBJ01_EXERCICIO2_VEICULO.iml" filepath="$PROJECT_DIR$/POO_TSI/OBJ01_EXERCICIO2_VEICULO/OBJ01_EXERCICIO2_VEICULO.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO_TSI/OBJ02_HerancaMultipla_L1/OBJ02_HerancaMultipla_L1.iml" filepath="$PROJECT_DIR$/POO_TSI/OBJ02_HerancaMultipla_L1/OBJ02_HerancaMultipla_L1.iml" />
@@ -28,12 +28,12 @@
       <module fileurl="file://$PROJECT_DIR$/POO_TSI/OBJ03_AVAL_03_Pedidos/OBJ03_AVAL_03_Pedidos.iml" filepath="$PROJECT_DIR$/POO_TSI/OBJ03_AVAL_03_Pedidos/OBJ03_AVAL_03_Pedidos.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO_LC.iml" filepath="$PROJECT_DIR$/POO_LC.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO_TSI/OBJ02_Exercicios_Heranca1/TSI_Heranca_01.iml" filepath="$PROJECT_DIR$/POO_TSI/OBJ02_Exercicios_Heranca1/TSI_Heranca_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Testes_01/Testes_01.iml" filepath="$PROJECT_DIR$/Testes_01/Testes_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Testes_02/Testes_02.iml" filepath="$PROJECT_DIR$/Testes_02/Testes_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Testes_03/Testes_03.iml" filepath="$PROJECT_DIR$/Testes_03/Testes_03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Testes_04_Colecao_List/Testes_04_Colecao_List.iml" filepath="$PROJECT_DIR$/Testes_04_Colecao_List/Testes_04_Colecao_List.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Testes_05_Classes/Testes_05_Classes.iml" filepath="$PROJECT_DIR$/Testes_05_Classes/Testes_05_Classes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Testes_06_ListCarros/Testes_06_ListCarros.iml" filepath="$PROJECT_DIR$/Testes_06_ListCarros/Testes_06_ListCarros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_01/Testes_01.iml" filepath="$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_01/Testes_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_02/Testes_02.iml" filepath="$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_02/Testes_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_03/Testes_03.iml" filepath="$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_03/Testes_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_04_Colecao_List/Testes_04_Colecao_List.iml" filepath="$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_04_Colecao_List/Testes_04_Colecao_List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_05_Classes/Testes_05_Classes.iml" filepath="$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_05_Classes/Testes_05_Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_06_ListCarros/Testes_06_ListCarros.iml" filepath="$PROJECT_DIR$/TESTES-APRENDIZADOS/Testes_06_ListCarros/Testes_06_ListCarros.iml" />
       <module fileurl="file://$PROJECT_DIR$/prova02_20222/prova02_20222.iml" filepath="$PROJECT_DIR$/prova02_20222/prova02_20222.iml" />
     </modules>
   </component>
