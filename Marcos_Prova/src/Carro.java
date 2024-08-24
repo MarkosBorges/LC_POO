@@ -11,7 +11,7 @@ public class Carro {
         this.cor = cor;
         this.velocidade = velocidade;
         this.ano = ano;
-        //this.vendido = true;
+        this.vendido = false;
     }
 
     public String getMarca() {
@@ -54,48 +54,26 @@ public class Carro {
         this.vendido = vendido;
     }
 
-    public void vendido() {
+    // Métodos adicionais
+    public void venderCarro() {
         this.vendido = true;
     }
 
-
-    public void naoVendido() {
-        this.vendido = false;
+    public void alterarCor(String novaCor) {
+        this.cor = novaCor;
     }
 
-    public boolean vendeCarro(){
-        return this.vendido;
+    public void alterarAno(int novoAno) {
+        this.ano = novoAno;
     }
 
-    public String alteraCor(String cor){
-        this.cor = cor;
-        //return null;
-        return cor;
-    }
-
-//    private String setCor() {
-//        this.cor = cor;
-//        return getCor();
-//    }
-
-    public int alteraAno(int ano){
-        this.ano = ano;
-        //return cor;
-        return 0;
-    }
     @Override
     public String toString() {
-        String estado = vendido ? "Vendido" : "Não Vendido";
-        String status;
-        if(vendeCarro() == true){
-            status = "==== VENDIDO ====";
-        }else{
-            status = "==== À VENDA! ====";
-        }
-        return " " + status +
+        String status = vendido ? "==== VENDIDO ====" : "==== À VENDA! ====";
+        return status +
                 "\nMarca: " + marca +
                 "  Cor: " + cor +
                 "\n Ano: " + ano +
-                " Velocidade: " + velocidade + "Km/h";
+                " Velocidade: " + velocidade + " Km/h";
     }
 }
