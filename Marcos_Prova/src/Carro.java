@@ -11,7 +11,7 @@ public class Carro {
         this.cor = cor;
         this.velocidade = velocidade;
         this.ano = ano;
-        this.vendido = true;
+        //this.vendido = true;
     }
 
     public String getMarca() {
@@ -93,9 +93,9 @@ public class Carro {
             status = "==== À VENDA! ====";
         }
         return " " + status +
-                "\nMarca: " + marca + '\'' +
-                "  Cor: " + cor + '\'' +
+                "\nMarca: " + marca +
+                "  Cor: " + cor +
                 "\n Ano: " + ano +
-                " Velocidade: " + velocidade;
+                " Velocidade: " + velocidade + "Km/h";
     }
 }
