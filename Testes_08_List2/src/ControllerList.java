@@ -1,4 +1,4 @@
-import model.Produto;
+
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.*;
@@ -54,11 +54,15 @@ public class ControllerList {
         //PESQUISA HASHMAP --------------------------------------------------------
         System.out.println("\n\n------- LOCALIZANDO PELO NOME [METODO HASHMAP] -------");
         Map<String, Produto> produtoMap = new HashMap<>();
-        produtoMap.put(prod1.getNome().toLowerCase(), prod1);
-        produtoMap.put(prod2.getNome().toLowerCase(), prod2);
-        produtoMap.put(prod3.getNome().toLowerCase(), prod3);
-        produtoMap.put(prod4.getNome().toLowerCase(), prod4);
-        produtoMap.put(prod5.getNome().toLowerCase(), prod5);
+//        produtoMap.put(prod1.getNome().toLowerCase(), prod1);
+//        produtoMap.put(prod2.getNome().toLowerCase(), prod2);
+//        produtoMap.put(prod3.getNome().toLowerCase(), prod3);
+//        produtoMap.put(prod4.getNome().toLowerCase(), prod4);
+//        produtoMap.put(prod5.getNome().toLowerCase(), prod5);
+        //ADICIONANDO OS OBJETOS A UM ARRAY
+        for (Produto produto : produtos) {
+            produtoMap.put(produto.getNome().toLowerCase(), produto);
+        }
         System.out.println("PRODUTO ENCONTRADO: "+produtoMap);
 
         //PESQUISA NA COLECAO DO TIPO MAP --------------------------------------------------------

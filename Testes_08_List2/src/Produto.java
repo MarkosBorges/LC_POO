@@ -1,7 +1,7 @@
-package model;
 
 
-//Em tempo de projeto, se trabalha com classe. E na memória, trabalhamos com instrancias dessas classes
+
+//Em tempo de projeto, se trabalha com classe. E na memória, trabalhamos com instancias dessas classes
 public class Produto {
 
     private String nome;
@@ -50,10 +50,9 @@ public class Produto {
     //Conversão do Objeto e Modelo
     @Override
     public String toString() {
-        return "\nProduto{" +
+        return "\n" +
                 "Produto: '" + nome + '\'' +
                 ", valor: " + valor +
-                ", Estoque: " + estoque +
-                '}';
+                ", Estoque: " + estoque;
     }
 }
