@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,16 +11,16 @@ public class Main {
         int opcao = 0;
 
         do {
-            System.out.println("\n=== Menu da Concessionária ===");
-            System.out.println("1. Vender o carro");
-            System.out.println("2. Mostrar a marca do carro");
-            System.out.println("3. Mostrar a cor do carro");
-            System.out.println("4. Mostrar a velocidade do carro");
-            System.out.println("5. Mostrar o ano do carro");
-            System.out.println("6. Editar a cor do carro");
-            System.out.println("7. Editar o ano do carro");
-            System.out.println("8. Mostrar dados do carro");
-            System.out.println("0. Sair");
+            System.out.println("\n====== Menu da Concessionária ======");
+            System.out.println("1. - VENDER o carro -");
+            System.out.println("2. Mostrar a MARCA do carro");
+            System.out.println("3. Mostrar a COR do carro");
+            System.out.println("4. Mostrar a VELOCIDADE do carro");
+            System.out.println("5. Mostrar o ANO do carro");
+            System.out.println("6. EDITAR a COR do carro");
+            System.out.println("7. EDITAR o ANO do carro");
+            System.out.println("8. MOSTRAR DADOS do carro");
+            System.out.println("0. **SAIR**");
             System.out.print("Escolha uma opção: ");
 
             opcao = scanner.nextInt();
@@ -55,8 +56,13 @@ public class Main {
                     System.out.println("Ano alterado com sucesso!");
                     break;
                 case 8:
-                    System.out.print("---- Dados do carro ----- ");
+                    System.out.println("---- Dados do carro ----- ");
                     System.out.println(meuCarro.toString());
+                    try {
+                        Thread.sleep(8000);  // 5 segundos
+                    } catch (InterruptedException e) {
+                        System.out.println("Ocorreu um erro durante a espera.");
+                    }
                     break;
                 case 0:
                     System.out.println("Saindo do sistema...");
@@ -65,9 +71,7 @@ public class Main {
                     System.out.println("Opção inválida! Tente novamente.");
                     break;
             }
-
             System.out.println("\n" + meuCarro.toString());
-
         } while(opcao != 0);
 
         scanner.close();

@@ -46,15 +46,11 @@ public class Carro {
         this.ano = ano;
     }
 
-    public boolean isVendido() {
-        return vendido;
-    }
-
     public void setVendido(boolean vendido) {
         this.vendido = vendido;
     }
 
-    // Métodos adicionais
+
     public void venderCarro() {
         this.vendido = true;
     }
