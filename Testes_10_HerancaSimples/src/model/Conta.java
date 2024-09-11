@@ -1,7 +1,7 @@
 package model;
 
 public abstract class Conta {
-    private double saldo;
+    protected double saldo;
 
     public double getSaldo() {
         return saldo;
