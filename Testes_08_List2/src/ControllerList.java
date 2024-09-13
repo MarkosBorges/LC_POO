@@ -71,7 +71,7 @@ public class ControllerList {
 
         //PESQUISA PELA BUSCA DO USUARIO [usando case-insensitive] --------------------------------------------------
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Digite o nome do produto que quer pesquisar:");
+        System.out.print("Digite o nome do produto que quer pesquisar: ");
         String nomeProduto = scanner.nextLine().toLowerCase();
 
         // Pesquisa no HashMap USANDO O GET --------------------------------------------------------------------------
